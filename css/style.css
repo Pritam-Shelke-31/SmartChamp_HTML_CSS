@@ -29,6 +29,13 @@ button {
   color: #ffffff;
 }
 
+.dark {
+  padding: 15px;
+  background: #35424a;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 /* header */
 header {
   background-color: #35424a;
@@ -130,6 +137,20 @@ header a:hover {
   height: 120px;
 }
 
+/* main-col */
+article#main-col {
+  float: left;
+  width: 65%;
+}
+
+/* sidebar */
+aside#sidebar {
+  float: right;
+  width: 30%;
+  margin-top: 10px;
+}
+
+/* footer */
 footer {
   padding: 20px;
   margin-top: 20px;
